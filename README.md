@@ -97,17 +97,19 @@ The models greatly improved the predictiveness of house prices (as seen above) b
 
 #### For more information
 Please contact the contributors to this analysis: 
-[Hatice Erdogan](https://github.com/haticerdogan)
-[Czarina Luna](https://www.linkedin.com/in/czarinagluna)
-[Weston Shuken](https://www.linkedin.com/in/westonshuken/)
+[Hatice Erdogan](https://github.com/haticerdogan) |
+[Czarina Luna](https://www.linkedin.com/in/czarinagluna) |
+[Weston Shuken](https://www.linkedin.com/in/westonshuken/) |
 [Ross McKim](https://github.com/Hadraks/)
 
 **Repository Structure:**
 ```
-├── Data                          <- Both sourced externally and generated from code 
-├── Images                        <- Both sourced externally and generated from code 
-├── Map                           <- Both sourced externally and generated from code
-├── .gitignore                    <- gitignore 
-├── index.ipynb                   <- Narrative documentation of analysis in Jupyter notebook
-├── README.md                     <- The top-level README for reviewers of this project
-└── Presentation.pdf            <- PDF version of project presentation
+├── Data Preprocessing                                        <- Team Member's indivual notebooks 
+├── Data                                                      <- Both sourced externally and generated from code 
+├── Images                                                    <- Both sourced externally and generated from code 
+├── Map                                                       <- JSON and Map files
+├── .gitignore                                                <- gitignore 
+├── King-County-House-Price-Predictor.ipynb                   <- Narrative documentation of analysis in Jupyter notebook
+├── README.md                                                 <- The top-level README for reviewers of this project
+├── calculator.html                                           <- Application of house price predictor model
+└── presentation.pdf                                          <- PDF version of project presentation
