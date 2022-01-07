@@ -1,4 +1,4 @@
-# Kings-county-housing-analysis# King County Housing
+# King County Housing
 #### House Price Estimate
 
 **Authors:** Hatice Kastan, Czarina Luna, Ross McKim, Weston Shuken
@@ -97,19 +97,17 @@ The models greatly improved the predictiveness of house prices (as seen above) b
 
 #### For more information
 Please contact the contributors to this analysis: 
-[Hatice Erdogan]()
-[Czarina Luna]()
+[Hatice Erdogan](https://github.com/haticerdogan)
+[Czarina Luna](https://www.linkedin.com/in/czarinagluna)
 [Weston Shuken](https://www.linkedin.com/in/westonshuken/)
 [Ross McKim](https://github.com/Hadraks/)
 
 **Repository Structure:**
 ```
-├── Data Preprocessing                            <- Team members' individual work
-├── Data                                          <- Both sourced externally and generated from code 
-├── Images                                        <- Both sourced externally and generated from code 
-├── Map                                           <- Includes JSON and map files
-├── .gitignore                                    <- gitignore 
-├── King_County-House-Price_Predictor.ipynb       <- Narrative documentation of analysis in Jupyter notebook
-├── README.md                                     <- The top-level README for reviewers of this project
-├── calculator.html                               <- Application of prediction model
-└── presentation.pdf                              <- PDF version of project presentation
+├── Data                          <- Both sourced externally and generated from code 
+├── Images                        <- Both sourced externally and generated from code 
+├── Map                           <- Both sourced externally and generated from code
+├── .gitignore                    <- gitignore 
+├── index.ipynb                   <- Narrative documentation of analysis in Jupyter notebook
+├── README.md                     <- The top-level README for reviewers of this project
+└── Presentation.pdf            <- PDF version of project presentation
