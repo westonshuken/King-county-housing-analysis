@@ -20,6 +20,7 @@ st.sidebar.write('# Model Prediction Example \n with standardized test data')
 generate = st.sidebar.button('Generate Prediction')
 
 if generate:
+       st.sidebar.write('MOBILE ONLY: Close sidebar to view prediction')
        rint = np.random.randint(0, len(X_test))
        prediction = loaded_model.predict(X_test.iloc[rint].values.reshape(1, -1))
        col1, col2 = st.columns(2)
@@ -61,11 +62,12 @@ features_df = pd.DataFrame(data=[features_arr], columns=['bedrooms', 'bathrooms'
 
 custom_predict = st.sidebar.button('Predict Price')
 if custom_predict:
+       st.sidebar.write('MOBILE ONLY: Close sidebar to view prediction')     
        custom_prediction = simple_model.predict(features_arr.reshape(1, -1))
        col1, col2 = st.columns(2)
        with col2:
               st.write('###### Random Forest Regressor')  
-              st.write('###### ~78% R2')   
+              st.write('###### ~78% $R^2$')   
               st.write('###### ~140,000 RMSE') 
               st.write('##### Selcted Features:')
               st.dataframe(features_df.T)
@@ -89,7 +91,7 @@ with st.sidebar.expander("Learn More"):
               Linear Models and highest importance in our Random Forest models.") 
 
        st.markdown("This model is only intended for actual use. This data is from 2014-2015 in a specific county \
-              , therefore it would only be applicable to use in this situation (unfortunately time travel is not possible)") 
+              , therefore it would only be applicable to use in this situation (unfortunately time travel is not possible).") 
 
        st.markdown("For more information, please see our [Github](https://github.com/westonshuken/King-county-housing-analysis).") 
 
