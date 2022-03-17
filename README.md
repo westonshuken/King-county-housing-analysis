@@ -113,7 +113,7 @@ Please contact the contributors to this analysis:
 ├── README.md                                                 <- The top-level README for reviewers of this project
 ├── calculator.html                                           <- Application of house price predictor model
 └── presentation.pdf                                          <- PDF version of project presentation
-
+```
 
 
 ---
@@ -127,3 +127,7 @@ I revisted this project to add in ensemble models. The Random Forest model easil
 ~107,000 RMSE
 
 ![Scatter Plot Random Forest](Images/rf_scatter.png)
+
+![Feature Importances of Random Forest](Images/rf_importances.png)
+
+
