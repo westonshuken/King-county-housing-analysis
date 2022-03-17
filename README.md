@@ -121,6 +121,7 @@ Please contact the contributors to this analysis:
 ## Appendix A
 by Weston Shuken
 
+### Ensemble Models
 I revisted this project to add in ensemble models. The Random Forest model easily beat the R^2 of the Linear Regression.
 
 ~87% R^2
@@ -129,6 +130,8 @@ I revisted this project to add in ensemble models. The Random Forest model easil
 ![Scatter Plot Random Forest](Images/rf_scatter.png)
 
 ![Feature Importances of Random Forest](Images/rf_importances.png)
+
+### Streamlit Application
 
 I deployed the random forest models into a Streamlit app here ---> [King County Housing Price Predictor](https://share.streamlit.io/westonshuken/king-county-housing-analysis/main/app.py)
 
