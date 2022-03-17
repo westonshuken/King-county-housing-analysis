@@ -113,3 +113,17 @@ Please contact the contributors to this analysis:
 ├── README.md                                                 <- The top-level README for reviewers of this project
 ├── calculator.html                                           <- Application of house price predictor model
 └── presentation.pdf                                          <- PDF version of project presentation
+
+
+
+---
+
+## Appendix A
+by Weston Shuken
+
+I revisted this project to add in ensemble models. The Random Forest model easily beat the $R^2$ of the Linear Regression.
+
+~87% $R^2$ 
+~107,000 RMSE
+
+![Scatter Plot Random Forest](Images/rf_scatter.png)
