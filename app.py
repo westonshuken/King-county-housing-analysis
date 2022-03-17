@@ -10,10 +10,9 @@ X_test = pd.read_csv('./Data/X_test_app.csv')
 y_test =  pd.read_csv('./Data/y_test_app.csv')
 
 st.header('King County Housing Price Predictor')
-st.write('###### *View Sidebar to Make Predictions*') 
+st.write('###### *View Sidebar to Make Predictions (top-left corner)*') 
 st.write('<---------------------------------') 
 
-header = st.sidebar.image('./Images/daria-nepriakhina-LZkbXfzJK4M-unsplash.jpg')
 st.markdown('---') 
 
 st.sidebar.write('# Model Prediction Example \n with standardized test data')
