@@ -17,7 +17,6 @@ st.write('# Model Prediction Example \n with standardized test data')
 generate = st.button('Generate Prediction')
 
 if generate:
-       st.write('MOBILE ONLY: Close sidebar to view prediction')
        rint = np.random.randint(0, len(X_test))
        prediction = loaded_model.predict(X_test.iloc[rint].values.reshape(1, -1))
        col1, col2 = st.columns(2)
@@ -59,7 +58,6 @@ features_df = pd.DataFrame(data=[features_arr], columns=['bedrooms', 'bathrooms'
 
 custom_predict = st.button('Predict Price')
 if custom_predict:
-       st.write('MOBILE ONLY: Close sidebar to view prediction')     
        custom_prediction = simple_model.predict(features_arr.reshape(1, -1))
        col1, col2 = st.columns(2)
        with col2:
