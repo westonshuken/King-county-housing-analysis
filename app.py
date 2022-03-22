@@ -9,11 +9,30 @@ simple_model = pickle.load(open('Model/simple_rf.sav', 'rb'))
 X_test = pd.read_csv('./Data/X_test_app.csv')
 y_test =  pd.read_csv('./Data/y_test_app.csv')
 
-st.header('King County Housing Price Predictor')
+st.markdown('# King County Housing Price Predictor')
+
+with st.expander("Read More"):
+       st.markdown("This is a housing price predictor based on \
+       King County Housing Data from 2014-2015 which contains 21,000 data points of house sales.")
+
+       st.markdown("The `Model Prediction Example` generates data that our team cleaned, feature engineered, \
+       and standardized. \
+       As a consequence of the standardization, the DataFrame returned is not interpretable in terms of the values, \
+       but rather it showcases the number of variables involved in the prediction process.") 
+
+       st.markdown("The `Custom Prediction` allows the user to generate home data in a simplistic manner. \
+              The features we chose for this are based on the features with the largest coefficients in our \
+              Linear Model and the highest importance in our Random Forest models.") 
+
+       st.markdown("This model not  intended for actual use. This data is from 2014-2015 and only from King County listings \
+              , therefore it would not be applicable to use in any current situation (unfortunately time travel is not possible).") 
+
+       st.markdown("For more information, please see our [Github](https://github.com/westonshuken/King-county-housing-analysis).") 
+
 
 st.markdown('---') 
 
-st.write('# Model Prediction Example \n with standardized test data')
+st.header('Model Prediction Example \n with standardized test data')
 generate = st.button('Generate Prediction')
 
 if generate:
@@ -36,8 +55,7 @@ if generate:
 
 st.markdown('---') 
 
-
-st.write('# Custom Prediction')
+st.header('Custom Prediction')
 
 sqft = st.slider('Total Living Sqft', 300, 10000)
 bedrooms = st.slider('Bedrooms', 1, 8)
@@ -72,21 +90,4 @@ if custom_predict:
 
 st.markdown('---')
 
-with st.expander("Learn More"):
-       st.markdown("This is a housing price predictor based on \
-       King County Housing Data from 2014-2015 which contains 21,000 data points of house sales.")
-
-       st.markdown("The `Model Prediction Example` generates data that our team cleaned, feature engineered, \
-       and standardized. \
-       As a consequence of the standardization, the DataFrame returned is not interpretable in terms of the values, \
-       but rather it showcases the number of variables involved in the prediction process.") 
-
-       st.markdown("The `Custom Prediction` allows the user to generate home data in a simplistic manner. \
-              The features we chose for this are based on the features with the largest coefficients in our \
-              Linear Model and the highest importance in our Random Forest models.") 
-
-       st.markdown("This model not  intended for actual use. This data is from 2014-2015 and only from King County listings \
-              , therefore it would not be applicable to use in any current situation (unfortunately time travel is not possible).") 
-
-       st.markdown("For more information, please see our [Github](https://github.com/westonshuken/King-county-housing-analysis).") 
 
