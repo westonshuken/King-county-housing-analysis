@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20041102</pubdate>
+                <title>Incorporated Areas of King County</title>
+                <edition>One</edition>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>King County</publish>
+                </pubinfo>
+                <othercit>None</othercit>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=326cb26c6bb549529f608d7d5f40853b</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=526cdf3320c44101a8bf37487ea0047d</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/Metadata.aspx?Layer=city</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterTermsAndConditions.pdf</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterHelpUsingKCOpenData.pdf</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Current boundaries for King County incorporated places. This is extracted from CITY_ANNEX_AREA.</abstract>
+            <purpose>This coverage contains boundaries and names of existing incorporated places and one village. CITY is the recommended municipal boundary source for general reference; medium to small scale map displays and simple analysis.</purpose>
+            <supplinf>None</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20160101</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-122.46561</westbc>
+                <eastbc>-121.340927</eastbc>
+                <northbc>47.787489</northbc>
+                <southbc>47.157508</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>Not applicable</themekt>
+                <themekey>administrative_OpenData</themekey>
+                <themekey>administration</themekey>
+                <themekey>cities</themekey>
+                <themekey>admin</themekey>
+                <themekey>jurisdiction</themekey>
+                <themekey>incorporations</themekey>
+                <themekey>kingcounty_opendata</themekey>
+            </theme>
+            <place>
+                <placekt>Not applicable</placekt>
+                <placekey>Pacific NW</placekey>
+                <placekey>King County</placekey>
+                <placekey>Washington state</placekey>
+                <placekey>WA</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>King County data are made available with the understanding that they shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means without the express written authorization of King County.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County Dept. of Environmental Services</cntorg>
+                    <cntper>Paul McCombs</cntper>
+                </cntorgp>
+                <cntpos>GIS Data Team Lead</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>900 Oakesdale Ave SW</address>
+                    <city>Renton</city>
+                    <state>WA</state>
+                    <postal>98055-1219</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-296-7258</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://www5.kingcounty.gov/sdc/DataImages/city.jpg</browsen>
+            <browsed>JPG File of layer overlain on base of WA counties or local cities</browsed>
+            <browset>JPG</browset>
+        </browse>
+        <datacred>King County</datacred>
+        <native>ESRI ArcGIS 10.0.3.3600</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Added Annexations from Late July 2012 through October 2012. Lots of old details added by Daisy Tamayo.</procdesc>
+                <procdate>20121030</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntperp>
+                            <cntper>Paul McCombs</cntper>
+                        </cntperp>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Added Annexations from October 2012 through May 2013. Added Park Annexation to Enumclaw from 1996 which was brought to light only since last update. Historic details added by Daisy Tamayo including changes to KC boundary along the white river</procdesc>
+                <procdate>20130606</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated Woodinville boundary at Woodinville-Duvall road to correct a long standing, recently discovered positional error.</procdesc>
+                <procdate>20130620</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated with several annexations of varying vintages. Several ROW annexations now documented.</procdesc>
+                <procdate>20131017</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated with several annexations, most notably Bothel Islands.</procdesc>
+                <procdate>20140228</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated with 3 effective Renton annexations, 1 pending Issaquah annexation, and a proposed annexation each for Seattle and Sammamish. Many thanks to Daisy Tamayo for her tireless efforts mapping legal descriptions.</procdesc>
+                <procdate>20150113</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>King County Dept. of Environmental Services</cntorg>
+                            <cntper>Paul McCombs</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Team Lead</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>900 Oakesdale Ave SW</address>
+                            <city>Renton</city>
+                            <state>WA</state>
+                            <postal>98055-1219</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>206-296-7258</cntvoice>
+                        <cntemail>firstname.lastname@kingcounty.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Updated with annexations since last update.</procdesc>
+                <procdate>20150626</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Added old park annexation to Enumclaw on White river</procdesc>
+                <procdate>20150814</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>PLIBRARY.ADMIN.xxxx1226103</enttypl>
+                <enttypds>ESRI</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature Geometry</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>JURIS</attrlabl>
+                <attrdef>jurisdiction code</attrdef>
+                <attrdefs>DDES</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>AL</edomv>
+                        						
+                        <edomvd>Algona</edomvd>
+                        						
+                        <edomvds>DDES</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CITYNAME</attrlabl>
+                <attrdef>full jurisdiction name</attrdef>
+                <attrdefs>DDES</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape.area</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.len</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>KCGIS Center</cntorg>
+                    <cntper>Cheryl Wilder</cntper>
+                </cntorgp>
+                <cntpos>Data Sales Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 700</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>980914</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-296-7258</cntvoice>
+            </cntinfo>
+        </distrib>
+        <resdesc>/plibrary2/admin/shapes/polygon/city.shp</resdesc>
+        <distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ESRI Shapefile</formname>
+                </digtinfo>
+            </digform>
+            <fees>Contact KCGIS Client Services for the cost of reproduction - http://www.kingcounty.gov/operations/GIS/GISData/GISDataDistribution.aspx</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20151231</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County Dept. of Environmental Services</cntorg>
+                    <cntper>Paul McCombs</cntper>
+                </cntorgp>
+                <cntpos>GIS Data Team Lead</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>900 Oakesdale Ave SW</address>
+                    <city>Renton</city>
+                    <state>WA</state>
+                    <postal>98055-1219</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-296-7258</cntvoice>
+                <cntemail>firstname.lastname@kingcounty.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
