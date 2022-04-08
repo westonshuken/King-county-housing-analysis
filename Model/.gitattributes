@@ -1,2 +1,0 @@
-final_rf.sav filter=lfs diff=lfs merge=lfs -text
-simple_rf.sav filter=lfs diff=lfs merge=lfs -text
